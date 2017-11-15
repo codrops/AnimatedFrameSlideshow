@@ -184,5 +184,5 @@
     };
 
     new Slideshow(document.querySelector('.slideshow'));
-    imagesLoaded(document.body, { background: true }, () => document.body.classList.remove('loading'));
+    imagesLoaded('.slide__img', { background: true }, () => document.body.classList.remove('loading'));
 };
